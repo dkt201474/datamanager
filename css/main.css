@@ -1,0 +1,593 @@
+/* Author : Sadeck Yarou */
+/*  Date : 11/08/2015   */
+/* ==================== */
+.bgd-green-light{background:#1BBC9B;}
+.color-green-light{color:#1BBC9B;}
+.bgd-gray-light{background:#ccc;}
+.color-gray-light{color:#ccc;}
+.bgd-gray{background:#555;}
+.color-gray{background:#555;}
+.bgd-gray-dark{background:#222;}
+.color-gray-dark{color:#222;}
+.color-w{color:#fff;}
+.va-m{
+	vertical-align: middle;
+}
+/* ********* */
+/*=index.php */
+/* _________ */
+/* FORMULAIRE */
+body{
+	color:#2F2F2F;
+}
+.login-form h1{
+	margin-top: -20px;
+	color:#219E85;
+}
+.login-form{
+	padding:50px 40px;
+	border-radius: 5px;
+	background:#eee;
+}
+.login-form{
+	margin-top: 90px;
+}
+.login-form span{
+	font-weight: inherit;
+	color:#666;
+}
+input,textarea{
+	outline:none;
+	border:1px solid white;
+	padding:10px 15px;
+	font-size: 1.1em;
+	border-radius: 3px;
+	color:#666;
+	margin-bottom: 3px;
+	font-weight: bold;
+}	
+input:-ms-input-placeholder,textarea:placeholder {
+	color: #aaa;
+}
+input::-webkit-input-placeholder,textarea::-webkit-textarea-placeholder{
+	color: #aaa;
+}
+form > p i{
+	margin:0px;
+	padding:0px;
+	position: relative;
+	left:-20px;
+	color:#999;
+}
+select{
+	border:1px solid rgba(204, 204, 204, 0.7);
+	padding:4px 8px;
+	outline:none;
+	color:#666;
+}
+button{
+	background: #1BBC9B;
+	color: #fff;
+	border:none;
+	border-radius: 3px;
+	cursor: pointer;
+	border-bottom: 3px solid #00A532;
+	outline:none;
+}
+.xl{
+	padding: 0.5em 0em;
+	width:90%;
+}
+button:hover{
+	border-bottom-width: 2px;
+	margin-top: 1px;
+
+}
+button:active{
+	border-bottom-width: 1px;
+	margin-top: 2px;
+}
+form p:last-child{
+	position:relative;
+	bottom:-10px;
+}
+form p:last-child a{
+	text-decoration: none;
+	color:#219E85;
+}
+form p:last-child a:hover{
+	text-decoration: underline;
+}
+form p:last-child span{
+	color:#999;
+	font-size: 0.8em;
+}
+/* ANIMATION */
+.hvr-float-shadow{
+	display:block;
+}
+/* *************************** */
+/*=inscription-stagiaire.php */
+/* ___________________________ */
+.inscription-title{
+	box-shadow: 0px 1px 6px rgba(0,0,0,0.5);
+}
+.inscription-title h1{
+	text-shadow: 0px 0px 2.8px rgba(0,0,0,0.2);
+	margin-bottom: 0px;
+}
+.inscription-form{
+	padding-top: 80px;
+}
+.inscription-form label{
+	margin: 0;
+	color: #666;
+	position: relative;
+	left: -30px;
+}
+.inscription-form input{
+	padding:10px 0px 10px 10px;
+}
+.inscription-form label:hover{
+	color:#1BBC9B;
+}
+.inscription-form select{
+	padding:10px 30px;
+	border-radius: 3px;
+}
+.inscription-form .flex-container{
+	margin-bottom: 30px;
+}
+.inscription-form .txtright{
+	margin-left: -4px;
+} 
+.inscription-form .txtleft{
+	padding-left: 14px;
+} 
+/* *************************** */
+/*=espace-personnel-stagiaire.php */
+/* ___________________________ */
+.espace-perso-stag .top-menu, .top-menu span, .top-menu i,.top-menu a{
+	color:#222;
+}
+.top-menu{
+	margin-bottom: 4px;
+}
+@media (min-width: 961px) {
+	.top-menu{
+		max-height:45px;
+		box-shadow: 0px 2px 5px #aaa;
+	}
+}
+.top-menu a{
+	text-decoration: none;
+
+}
+.large-i{
+	font-size: 20px;
+}
+.small-i{
+	font-size: 12px;
+}
+.top-menu .age i{
+	color:#d9534f;
+}
+@media (min-width: 640px){
+	.top-menu .right>ul{
+		height:40px;
+		margin:0px;
+		padding:0px;
+	}
+}
+@media (min-width: 610px){
+	.top-menu .right>ul{
+		height:40px;
+		margin:0px;
+		padding:0px;
+	}
+}
+.top-menu .li-l1{
+	padding: 8px 5px 4px 5px;
+	position: relative;
+	top: -5px;
+}
+.top-menu .li-l1 ul{
+	display: none;
+	position: absolute;
+	top: 42px;
+	background: #fafafa;
+	min-width: 220px;
+	width: auto;
+	left: -18px;
+	padding: 0px 0px 1px 0px;
+	border-radius: 2px;
+	
+}
+.top-menu .li-l1:hover ul{
+	display: block;
+}
+.top-menu .li-l1 ul li{
+	padding: 5px 10px;
+
+}
+.top-menu .li-l1 ul li:hover{
+	background-color: #eee;
+}
+.top-menu .li-l1 ul li:first-child{
+	border-top: 2px solid #eee;
+	box-shadow: 0px 1px 1px #aaa;
+	background: #1BBC9B;
+	color: #fff;
+	font-size: 1.1em;
+	margin-bottom: 0px;
+}
+.top-menu .li-l1 ul li.top-menu .li-l1 ul li:hover{
+	box-shadow: 0px 1px 1px #aaa;
+	background: #aaa;
+	color:#fff;
+}
+.top-menu .li-l1:hover{
+	padding-bottom: 100px; /* Pour eviter les problemes lors du hover sur les li de niveau 1 */
+margin-top: -2px;
+border-top: 2px solid #fff;
+}
+
+.li-l1 ul li i{
+	color:#666;
+}
+.li-l1 .fa-power-off{
+	color:#d9534f;
+}
+.li-l1 .fa-power-off:hover{
+	color:red;
+}
+.espace-perso-stag span:first-child{
+	text-decoration: underline;
+	font-style: italic;
+}
+.espace-perso-stag .top-menu ul{
+	margin:-1px 0px 0px 0px;
+}
+.infos{
+	padding: 2px 5px;
+	border-radius: 15px;
+	font-size: 10px;
+	background: #FDFDFD;
+	color: #177360 !important;
+	position: relative;
+	left: -4px;
+	top: -4px;
+	text-decoration: none !important;
+}
+.top-menu img{
+	max-width: 30px;
+	margin-top: -5px;
+	border-radius: 100px;
+	max-height: 30px;
+}
+.side-left{
+	float:left;
+	
+	width:16%;
+	padding-bottom: 300px;
+	border-radius: 5px;
+}
+.side-left{
+	float:left;
+}
+@media (min-width:961px){
+	.side-left-large{
+		width:16%;
+	}
+}
+@media (min-width: 641px) and (max-width: 960px){
+	.side-left-medium{
+		width:22%;
+	}
+}
+@media (min-width: 420px) and (max-width: 641px){
+	.side-left-small{
+		width:30%;
+	}
+}
+@media (max-width: 419px){
+	.side-left-tiny{
+		width:100%;
+	}
+}
+.side-left ul{
+	padding:10px 0px 10px 0px;
+}
+.side-left li{
+	margin-top: 2px;
+	margin-bottom: 2px;
+	padding:8px 10px;
+	border-radius: 4px;
+}
+.side-left li a{
+	text-decoration: none;
+}
+.side-left li  i{
+	margin-top: 3px;
+}
+.side-left li:hover,.active{
+	background:#75CAB8;
+	cursor:pointer;
+}
+.side-right{
+	float:right;
+
+}
+@media (min-width:961px){
+	.side-right{
+		width:80%;
+	}
+}
+@media (min-width: 641px) and (max-width: 960px){
+	.side-right{
+		width:71%;
+	}
+}
+@media (min-width: 420px) and (max-width: 641px){
+	.side-right{
+		width:65%;
+	}
+}
+@media (max-width: 419px){
+	.side-right{
+		width:100%;
+	}
+}
+/* ===================TACHES=================== */
+#taches>h2,#tuteurs>h2,#memoire>h2,#permissions>h2,#suggession>h2,#inbox>h2,#profil>h2,#ficheDePresence>h2{
+	font-family: trebuchet;
+	color: #FFFFFF;
+	font-size: 3em;
+	margin-bottom: 5px;
+	text-shadow: 0px 0px 4px rgba(56, 56, 56, 0.88);
+}
+#taches article{
+	padding:10px;
+	box-shadow: 0px 0px 5px #ccc;
+	border:1px solid #ccc;
+	border-radius: 5px;
+	margin-bottom: 5px;
+}
+#taches article> strong, #taches article a{
+	padding:3px;
+	border-radius: 3px;
+	font-family: trebuchet;
+	font-size: 1.3em;
+	color:#FBFBFB;
+	text-shadow: 0px 0px 3px rgb(99, 99, 99);
+
+}
+#taches article a{
+	font-family: arial;
+	text-decoration: none;
+}
+#taches article a:hover,.resolved{
+	background:#3FA73F;
+	text-shadow: 0px 0px 0px rgb(99, 99, 99);
+}
+#taches .tache-inner{
+	margin-top: 42px;
+	padding-top: 8px;
+	border-top: 1px solid #ddd;
+	color:#4A4A4A;
+}
+#taches .tache-inner p strong{
+	color:#777;
+}
+#taches .tache-inner h4{
+	margin:10px 0px -5px 0px;
+	font-weight: bold;
+	color:#1DA589;
+}
+#taches .tache-inner h4 a{
+	position:relative;
+	top:-2px;
+}
+#taches h4 a:hover{
+	background:none;
+	color:#1DA589;
+}
+#taches .tache-inner .tache-content{
+	max-width: 600px;
+	padding:5px;
+	background:rgba(221, 224, 224, 0.65);
+	overflow:none;
+}
+
+#taches .tache-inner .more-content{
+	margin-top: 0px;
+	display: none;
+}
+
+/* ===================TUTEURS=================== */
+#tuteur form{
+	margin:0px;
+	padding:0px;
+}
+.input-search:focus{
+	box-shadow: 0px 0px 3px #1BBC9B;
+}
+.i-search{
+	margin-left: -30px;
+	margin-top: +8px;
+	color: #1BBC9B;
+}
+.i-search:hover{
+	color:#35A08A;
+}
+.alert-success{
+	background: rgba(117, 117, 117, 0.3);
+	padding: 15px 25px;
+	margin: 30px auto;
+	box-shadow: 0px 0px 5px rgb(216, 216, 216);
+	border-radius: 5px;
+	width: 80%;
+	color: #FFF;
+	font-weight: bold;
+	font-size: 1.4em;
+	text-align: center;
+}
+.result-border-bottom{
+	border-bottom: 1px solid #E0E0E0;
+	margin: 0px auto 20px auto;
+}
+
+/* ===================MEMOIRE=================== */
+#memoire textarea, #permissions textarea {
+	width:90%;
+	color:#aaa;
+	margin-bottom: 20px;
+}
+#memoire textarea:focus{
+	color:#666 
+}
+#memoire button[type="file"]{
+	padding:3px 5px;
+}
+/* STYLE POUR LE BOUTON FILE */
+.input-file-container {
+	width: 35%;
+} 
+.js .input-file-trigger {
+	padding: 14px 45px;
+	background: #1BBC9B;
+	color: #fff;
+	font-size: 1em;
+	transition: all .4s;
+	cursor: pointer;
+	border-radius: 3px;
+	margin-bottom: 10px;
+	margin-top: -70px;
+}
+.js .input-file {
+	width: 35%;
+	opacity: 0;
+	padding: 14px 0;
+	cursor: pointer;
+}
+.js .input-file:hover + .input-file-trigger,
+.js .input-file:focus + .input-file-trigger,
+.js .input-file-trigger:hover,
+{
+	border-bottom-width: 2px;
+	margin-top: 1px;
+}
+.js .input-file-trigger:focus {
+	border-bottom-width: 1px;
+	margin-top: 2px;
+}
+.file-return {
+	margin: 0;
+}
+.file-return:not(:empty) {
+	margin: 1em 0;
+}
+.js .file-return {
+	font-style: italic;
+	font-size: .9em;
+	font-weight: bold;
+}
+.js .file-return:not(:empty):before {
+	content: "Sélectionner un fichier: ";
+	font-style: normal;
+	font-weight: normal;
+}
+
+/* ===================PERMISSIONS=================== */
+.beatpicker-clear{
+	padding: 8px 15px 8px 15px;
+	margin-left: 25px;
+}
+.annule-ml{
+	margin-top: 5px !important;
+	margin-left: 0px !important;
+}
+.beatpicker-input-to{
+	margin-left: 10px;
+}
+.animate-error{
+	-webkit-animation-name: hvr-buzz-out;
+	animation-name: hvr-buzz-out;
+	-webkit-animation-duration: 0.75s;
+	animation-duration: 0.75s;
+	-webkit-animation-timing-function: linear;
+	animation-timing-function: linear;
+	-webkit-animation-iteration-count: 1;
+	animation-iteration-count: 1;  -webkit-animation-name: hvr-buzz-out;
+	animation-name: hvr-buzz-out;
+	-webkit-animation-duration: 0.75s;
+	animation-duration: 0.75s;
+	-webkit-animation-timing-function: linear;
+	animation-timing-function: linear;
+	-webkit-animation-iteration-count: 1;
+	animation-iteration-count: 1;
+}
+
+.p-style{
+	padding:5px;
+	background:rgba(221, 224, 224, 0.65);
+	overflow:none;
+}
+#suggession span,#suggession strong{
+	font-style: italic;
+	color: #666;
+	padding: 5px;
+}
+
+.inbox-inner{
+	padding:5px;
+	background:rgba(221, 224, 224, 0.65);
+	overflow:none;
+	color: #666;
+}
+.inbox-inner em{
+	font-style: normal;
+}
+.side-left-l{
+	width: 	350px;
+}
+
+.side-right-r{
+	width: 	350px;
+}
+
+.input-file-trigger-2{
+    padding: 0px 1px 2px 1px;
+    border: 2px solid #FFFFFF;
+    transition: all .4s;
+    cursor: pointer;
+    border-radius: 100px;
+    margin-top: 0px;
+}
+.pp{
+	max-width: 75px;
+	min-height: 75px;
+	cursor: pointer;
+	border-radius: 100px;
+}
+.input-file-container-2 {
+    margin-left: -5px;
+}
+.js .input-file-2 {
+    width: 0%;
+    opacity: 0;
+    padding: 14px 0;
+    cursor: pointer;
+}
+.permission-style{
+	padding: 10px 10px 10px 10px;
+	background: #FAFAFA;
+	border-radius: 6px;
+	border: 1px solid #aaa;
+}
+.btn-move{
+	position: relative;
+    top: -73px;
+    left: 260px;
+    padding: 12px 15px;
+}
